@@ -1,0 +1,6 @@
+framework module Pods_Magic_the_Gathering_PVP {
+  umbrella header "Pods-Magic the Gathering PVP-umbrella.h"
+
+  export *
+  module * { export * }
+}

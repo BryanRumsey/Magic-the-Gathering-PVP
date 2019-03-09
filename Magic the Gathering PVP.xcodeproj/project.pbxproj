@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF5F5FFB228DC78EC8377C3 /* Pods_Magic_the_Gathering_PVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A142198D252D232E1472B8 /* Pods_Magic_the_Gathering_PVP.framework */; };
+		1EE0E94799EFED48180A7E54 /* Pods_Magic_the_Gathering_PVPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294EAD471060DD9E2875DFD6 /* Pods_Magic_the_Gathering_PVPTests.framework */; };
+		26168C5B221123D400A6FF05 /* CardCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26168C5A221123D400A6FF05 /* CardCollection.swift */; };
+		26168C5D221124DB00A6FF05 /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26168C5C221124DB00A6FF05 /* CardCollectionViewController.swift */; };
+		26454BCF22120F2200A63A01 /* appIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26454BCE22120F2200A63A01 /* appIcon.jpg */; };
+		266142082207F6AC008A7120 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266142072207F6AC008A7120 /* LoginViewController.swift */; };
+		2661420A22080273008A7120 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661420922080273008A7120 /* HomeViewController.swift */; };
+		266ACFE6222703E200061303 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266ACFE5222703E200061303 /* ChatRoomViewController.swift */; };
+		266ACFE822272CD800061303 /* chatRoomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266ACFE722272CD800061303 /* chatRoomTableCell.swift */; };
+		266F3DB6221B467A00C1068B /* CardLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F3DB5221B467A00C1068B /* CardLibrary.swift */; };
+		266F3DBA22244E1700C1068B /* BuildLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F3DB922244E1700C1068B /* BuildLibraryViewController.swift */; };
+		266F3DBC222455E300C1068B /* NewLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F3DBB222455E300C1068B /* NewLibrary.swift */; };
+		266F3DBE2224560900C1068B /* CardBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F3DBD2224560900C1068B /* CardBox.swift */; };
 		268E782922036625000163A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E782822036625000163A3 /* AppDelegate.swift */; };
 		268E782B22036625000163A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 268E782A22036625000163A3 /* GameScene.sks */; };
 		268E782D22036625000163A3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 268E782C22036625000163A3 /* Actions.sks */; };
 		268E782F22036625000163A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E782E22036625000163A3 /* GameScene.swift */; };
 		268E783122036625000163A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E783022036625000163A3 /* GameViewController.swift */; };
 		268E783422036625000163A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E783222036625000163A3 /* Main.storyboard */; };
-		268E783622036626000163A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268E783522036626000163A3 /* Assets.xcassets */; };
 		268E783922036626000163A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E783722036626000163A3 /* LaunchScreen.storyboard */; };
 		268E784422036626000163A3 /* Magic_the_Gathering_PVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E784322036626000163A3 /* Magic_the_Gathering_PVPTests.swift */; };
 		268E784F22036626000163A3 /* Magic_the_Gathering_PVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E784E22036626000163A3 /* Magic_the_Gathering_PVPUITests.swift */; };
+		26B3A6F1222D681700ACB621 /* alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B3A6F0222D681700ACB621 /* alert.storyboard */; };
+		26B3A6F3222D687E00ACB621 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3A6F2222D687E00ACB621 /* AlertViewController.swift */; };
+		26B3A6F5222D7ADA00ACB621 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3A6F4222D7ADA00ACB621 /* AlertService.swift */; };
+		26C47B96222B0712000E4BE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C47B95222B0712000E4BE8 /* Assets.xcassets */; };
+		26D4204322086EAA0090DCE8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4204222086EAA0090DCE8 /* CreateAccountViewController.swift */; };
+		26D420472208949F0090DCE8 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D420462208949F0090DCE8 /* ResetPasswordViewController.swift */; };
+		26E42EF7220F7EFC00D3C595 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E42EF6220F7EFB00D3C595 /* GoogleService-Info.plist */; };
+		57A9406EBDE6491D3954C1D5 /* Pods_Magic_the_Gathering_PVPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2FE74731191A74B2F75120 /* Pods_Magic_the_Gathering_PVPUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +57,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E6C5C8E4446D8AE7C3BCF2 /* Pods-Magic the Gathering PVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic the Gathering PVP.debug.xcconfig"; path = "Target Support Files/Pods-Magic the Gathering PVP/Pods-Magic the Gathering PVP.debug.xcconfig"; sourceTree = "<group>"; };
+		0A83621EADEA3E3CFB0E342E /* Pods-Magic the Gathering PVPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic the Gathering PVPTests.release.xcconfig"; path = "Target Support Files/Pods-Magic the Gathering PVPTests/Pods-Magic the Gathering PVPTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C1BDA910817DC7471356FFB /* Pods-Magic the Gathering PVPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic the Gathering PVPUITests.release.xcconfig"; path = "Target Support Files/Pods-Magic the Gathering PVPUITests/Pods-Magic the Gathering PVPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26168C5A221123D400A6FF05 /* CardCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollection.swift; sourceTree = "<group>"; };
+		26168C5C221124DB00A6FF05 /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
+		26454BCE22120F2200A63A01 /* appIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appIcon.jpg; sourceTree = "<group>"; };
+		266142072207F6AC008A7120 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2661420922080273008A7120 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2664710A4811DF4DE8EC3309 /* Pods-Magic the Gathering PVPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic the Gathering PVPUITests.debug.xcconfig"; path = "Target Support Files/Pods-Magic the Gathering PVPUITests/Pods-Magic the Gathering PVPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		266ACFE5222703E200061303 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		266ACFE722272CD800061303 /* chatRoomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRoomTableCell.swift; sourceTree = "<group>"; };
+		266F3DB5221B467A00C1068B /* CardLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLibrary.swift; sourceTree = "<group>"; };
+		266F3DB922244E1700C1068B /* BuildLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLibraryViewController.swift; sourceTree = "<group>"; };
+		266F3DBB222455E300C1068B /* NewLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLibrary.swift; sourceTree = "<group>"; };
+		266F3DBD2224560900C1068B /* CardBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBox.swift; sourceTree = "<group>"; };
 		268E782522036625000163A3 /* Magic the Gathering PVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic the Gathering PVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268E782822036625000163A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268E782A22036625000163A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -44,7 +79,6 @@
 		268E782E22036625000163A3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		268E783022036625000163A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		268E783322036625000163A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		268E783522036626000163A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268E783822036626000163A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268E783A22036626000163A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		268E783F22036626000163A3 /* Magic the Gathering PVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic the Gathering PVPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +87,18 @@
 		268E784A22036626000163A3 /* Magic the Gathering PVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic the Gathering PVPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268E784E22036626000163A3 /* Magic_the_Gathering_PVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_the_Gathering_PVPUITests.swift; sourceTree = "<group>"; };
 		268E785022036626000163A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B3A6F0222D681700ACB621 /* alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = alert.storyboard; sourceTree = "<group>"; };
+		26B3A6F2222D687E00ACB621 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		26B3A6F4222D7ADA00ACB621 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		26C47B95222B0712000E4BE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D4204222086EAA0090DCE8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		26D420462208949F0090DCE8 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		26E42EF6220F7EFB00D3C595 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		294EAD471060DD9E2875DFD6 /* Pods_Magic_the_Gathering_PVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_the_Gathering_PVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7FE5507E43485E1C74AC52 /* Pods-Magic the Gathering PVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic the Gathering PVPTests.debug.xcconfig"; path = "Target Support Files/Pods-Magic the Gathering PVPTests/Pods-Magic the Gathering PVPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84A142198D252D232E1472B8 /* Pods_Magic_the_Gathering_PVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_the_Gathering_PVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2FE74731191A74B2F75120 /* Pods_Magic_the_Gathering_PVPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_the_Gathering_PVPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6D9FF8C6BAC55FA6CCB2AB /* Pods-Magic the Gathering PVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic the Gathering PVP.release.xcconfig"; path = "Target Support Files/Pods-Magic the Gathering PVP/Pods-Magic the Gathering PVP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF5F5FFB228DC78EC8377C3 /* Pods_Magic_the_Gathering_PVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE0E94799EFED48180A7E54 /* Pods_Magic_the_Gathering_PVPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A9406EBDE6491D3954C1D5 /* Pods_Magic_the_Gathering_PVPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +136,8 @@
 				268E784222036626000163A3 /* Magic the Gathering PVPTests */,
 				268E784D22036626000163A3 /* Magic the Gathering PVPUITests */,
 				268E782622036625000163A3 /* Products */,
+				590F6455D04124C6D463C8C0 /* Pods */,
+				C945A0C0059C98425B7E456B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +159,15 @@
 				268E782C22036625000163A3 /* Actions.sks */,
 				268E782E22036625000163A3 /* GameScene.swift */,
 				268E783022036625000163A3 /* GameViewController.swift */,
-				268E783222036625000163A3 /* Main.storyboard */,
-				268E783522036626000163A3 /* Assets.xcassets */,
 				268E783722036626000163A3 /* LaunchScreen.storyboard */,
+				268E783222036625000163A3 /* Main.storyboard */,
+				26C476192232BC3300342BB3 /* Screens */,
+				26B3A6F0222D681700ACB621 /* alert.storyboard */,
+				26C4761A2232BC5500342BB3 /* Alert Screen */,
 				268E783A22036626000163A3 /* Info.plist */,
+				26E42EF6220F7EFB00D3C595 /* GoogleService-Info.plist */,
+				26C47B95222B0712000E4BE8 /* Assets.xcassets */,
+				26454BCE22120F2200A63A01 /* appIcon.jpg */,
 			);
 			path = "Magic the Gathering PVP";
 			sourceTree = "<group>";
@@ -134,6 +190,81 @@
 			path = "Magic the Gathering PVPUITests";
 			sourceTree = "<group>";
 		};
+		26C476162232BAFA00342BB3 /* Collection Screen */ = {
+			isa = PBXGroup;
+			children = (
+				26168C5A221123D400A6FF05 /* CardCollection.swift */,
+				266F3DB5221B467A00C1068B /* CardLibrary.swift */,
+				26168C5C221124DB00A6FF05 /* CardCollectionViewController.swift */,
+			);
+			path = "Collection Screen";
+			sourceTree = "<group>";
+		};
+		26C476172232BB6900342BB3 /* Library Screen */ = {
+			isa = PBXGroup;
+			children = (
+				266F3DB922244E1700C1068B /* BuildLibraryViewController.swift */,
+				266F3DBB222455E300C1068B /* NewLibrary.swift */,
+				266F3DBD2224560900C1068B /* CardBox.swift */,
+			);
+			path = "Library Screen";
+			sourceTree = "<group>";
+		};
+		26C476182232BC1400342BB3 /* Chatroom Screen */ = {
+			isa = PBXGroup;
+			children = (
+				266ACFE5222703E200061303 /* ChatRoomViewController.swift */,
+				266ACFE722272CD800061303 /* chatRoomTableCell.swift */,
+			);
+			path = "Chatroom Screen";
+			sourceTree = "<group>";
+		};
+		26C476192232BC3300342BB3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				266142072207F6AC008A7120 /* LoginViewController.swift */,
+				26D420462208949F0090DCE8 /* ResetPasswordViewController.swift */,
+				26D4204222086EAA0090DCE8 /* CreateAccountViewController.swift */,
+				2661420922080273008A7120 /* HomeViewController.swift */,
+				26C476162232BAFA00342BB3 /* Collection Screen */,
+				26C476172232BB6900342BB3 /* Library Screen */,
+				26C476182232BC1400342BB3 /* Chatroom Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		26C4761A2232BC5500342BB3 /* Alert Screen */ = {
+			isa = PBXGroup;
+			children = (
+				26B3A6F2222D687E00ACB621 /* AlertViewController.swift */,
+				26B3A6F4222D7ADA00ACB621 /* AlertService.swift */,
+			);
+			path = "Alert Screen";
+			sourceTree = "<group>";
+		};
+		590F6455D04124C6D463C8C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09E6C5C8E4446D8AE7C3BCF2 /* Pods-Magic the Gathering PVP.debug.xcconfig */,
+				FE6D9FF8C6BAC55FA6CCB2AB /* Pods-Magic the Gathering PVP.release.xcconfig */,
+				7C7FE5507E43485E1C74AC52 /* Pods-Magic the Gathering PVPTests.debug.xcconfig */,
+				0A83621EADEA3E3CFB0E342E /* Pods-Magic the Gathering PVPTests.release.xcconfig */,
+				2664710A4811DF4DE8EC3309 /* Pods-Magic the Gathering PVPUITests.debug.xcconfig */,
+				1C1BDA910817DC7471356FFB /* Pods-Magic the Gathering PVPUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C945A0C0059C98425B7E456B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A142198D252D232E1472B8 /* Pods_Magic_the_Gathering_PVP.framework */,
+				294EAD471060DD9E2875DFD6 /* Pods_Magic_the_Gathering_PVPTests.framework */,
+				AC2FE74731191A74B2F75120 /* Pods_Magic_the_Gathering_PVPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 268E785322036626000163A3 /* Build configuration list for PBXNativeTarget "Magic the Gathering PVP" */;
 			buildPhases = (
+				5C4D77B6B63F184BAEE12E18 /* [CP] Check Pods Manifest.lock */,
 				268E782122036625000163A3 /* Sources */,
 				268E782222036625000163A3 /* Frameworks */,
 				268E782322036625000163A3 /* Resources */,
+				968D1101449992EBB2106A89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 268E785622036626000163A3 /* Build configuration list for PBXNativeTarget "Magic the Gathering PVPTests" */;
 			buildPhases = (
+				2AF2FF3BFC0E537F1BFC9C77 /* [CP] Check Pods Manifest.lock */,
 				268E783B22036626000163A3 /* Sources */,
 				268E783C22036626000163A3 /* Frameworks */,
 				268E783D22036626000163A3 /* Resources */,
@@ -176,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 268E785922036626000163A3 /* Build configuration list for PBXNativeTarget "Magic the Gathering PVPUITests" */;
 			buildPhases = (
+				96FC8643089C60E2A0A9086B /* [CP] Check Pods Manifest.lock */,
 				268E784622036626000163A3 /* Sources */,
 				268E784722036626000163A3 /* Frameworks */,
 				268E784822036626000163A3 /* Resources */,
@@ -240,9 +375,12 @@
 			files = (
 				268E783422036625000163A3 /* Main.storyboard in Resources */,
 				268E782B22036625000163A3 /* GameScene.sks in Resources */,
-				268E783622036626000163A3 /* Assets.xcassets in Resources */,
+				26C47B96222B0712000E4BE8 /* Assets.xcassets in Resources */,
 				268E783922036626000163A3 /* LaunchScreen.storyboard in Resources */,
+				26E42EF7220F7EFC00D3C595 /* GoogleService-Info.plist in Resources */,
 				268E782D22036625000163A3 /* Actions.sks in Resources */,
+				26454BCF22120F2200A63A01 /* appIcon.jpg in Resources */,
+				26B3A6F1222D681700ACB621 /* alert.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +400,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AF2FF3BFC0E537F1BFC9C77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magic the Gathering PVPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4D77B6B63F184BAEE12E18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magic the Gathering PVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968D1101449992EBB2106A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magic the Gathering PVP/Pods-Magic the Gathering PVP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Magic the Gathering PVP/Pods-Magic the Gathering PVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FC8643089C60E2A0A9086B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magic the Gathering PVPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		268E782122036625000163A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26168C5D221124DB00A6FF05 /* CardCollectionViewController.swift in Sources */,
+				26D4204322086EAA0090DCE8 /* CreateAccountViewController.swift in Sources */,
+				266F3DBC222455E300C1068B /* NewLibrary.swift in Sources */,
+				2661420A22080273008A7120 /* HomeViewController.swift in Sources */,
+				266142082207F6AC008A7120 /* LoginViewController.swift in Sources */,
 				268E782F22036625000163A3 /* GameScene.swift in Sources */,
+				266F3DB6221B467A00C1068B /* CardLibrary.swift in Sources */,
+				266ACFE6222703E200061303 /* ChatRoomViewController.swift in Sources */,
 				268E783122036625000163A3 /* GameViewController.swift in Sources */,
+				266F3DBE2224560900C1068B /* CardBox.swift in Sources */,
+				26168C5B221123D400A6FF05 /* CardCollection.swift in Sources */,
+				26B3A6F3222D687E00ACB621 /* AlertViewController.swift in Sources */,
+				266F3DBA22244E1700C1068B /* BuildLibraryViewController.swift in Sources */,
+				26B3A6F5222D7ADA00ACB621 /* AlertService.swift in Sources */,
+				266ACFE822272CD800061303 /* chatRoomTableCell.swift in Sources */,
 				268E782922036625000163A3 /* AppDelegate.swift in Sources */,
+				26D420472208949F0090DCE8 /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,42 +691,53 @@
 		};
 		268E785422036626000163A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E6C5C8E4446D8AE7C3BCF2 /* Pods-Magic the Gathering PVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M348W9Z4MK;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Magic the Gathering PVP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanrumsey.Magic-the-Gathering-PVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		268E785522036626000163A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6D9FF8C6BAC55FA6CCB2AB /* Pods-Magic the Gathering PVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M348W9Z4MK;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Magic the Gathering PVP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanrumsey.Magic-the-Gathering-PVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		268E785722036626000163A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7FE5507E43485E1C74AC52 /* Pods-Magic the Gathering PVPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +759,7 @@
 		};
 		268E785822036626000163A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A83621EADEA3E3CFB0E342E /* Pods-Magic the Gathering PVPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +781,7 @@
 		};
 		268E785A22036626000163A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2664710A4811DF4DE8EC3309 /* Pods-Magic the Gathering PVPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +802,7 @@
 		};
 		268E785B22036626000163A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1BDA910817DC7471356FFB /* Pods-Magic the Gathering PVPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
